@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B6D87CE-1615-41EE-B699-C1B44684FB60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>chaoshi</RootNamespace>
+    <AssemblyName>chaoshi</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bookchuangti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookchuangti.Designer.cs">
+      <DependentUpon>bookchuangti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookliebiao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookliebiao.Designer.cs">
+      <DependentUpon>Bookliebiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chaoshi\Properties\Resources.cs" />
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="denglu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="denglu.Designer.cs">
+      <DependentUpon>denglu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guayu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guayu.Designer.cs">
+      <DependentUpon>guayu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kcxg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kcxg.Designer.cs">
+      <DependentUpon>kcxg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB.Designer.cs">
+      <DependentUpon>LB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LBtj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LBtj.Designer.cs">
+      <DependentUpon>LBtj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student.Designer.cs">
+      <DependentUpon>student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StuEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuEdit.Designer.cs">
+      <DependentUpon>StuEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuxk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuxk.Designer.cs">
+      <DependentUpon>stuxk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUser.cs" />
+    <Compile Include="Sxiugaimima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sxiugaimima.Designer.cs">
+      <DependentUpon>Sxiugaimima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacher.Designer.cs">
+      <DependentUpon>teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tscorexg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tscorexg.Designer.cs">
+      <DependentUpon>Tscorexg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TUser.cs" />
+    <Compile Include="Txiugaimima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Txiugaimima.Designer.cs">
+      <DependentUpon>Txiugaimima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="修改密码.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改密码.Designer.cs">
+      <DependentUpon>修改密码.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bookchuangti.resx">
+      <DependentUpon>bookchuangti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookliebiao.resx">
+      <DependentUpon>Bookliebiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="denglu.resx">
+      <DependentUpon>denglu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guayu.resx">
+      <DependentUpon>guayu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kcxg.resx">
+      <DependentUpon>kcxg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB.resx">
+      <DependentUpon>LB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LBtj.resx">
+      <DependentUpon>LBtj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student.resx">
+      <DependentUpon>student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuEdit.resx">
+      <DependentUpon>StuEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuxk.resx">
+      <DependentUpon>stuxk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sxiugaimima.resx">
+      <DependentUpon>Sxiugaimima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teacher.resx">
+      <DependentUpon>teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tscorexg.resx">
+      <DependentUpon>Tscorexg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Txiugaimima.resx">
+      <DependentUpon>Txiugaimima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="修改密码.resx">
+      <DependentUpon>修改密码.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pic\人物 %281%29.png" />
+    <None Include="pic\个人信息 %281%29.png" />
+    <None Include="pic\删 除.png" />
+    <None Include="pic\修改.png" />
+    <None Include="pic\1.png" />
+    <None Include="pic\4.png" />
+    <None Include="pic\5.png" />
+    <Content Include="pic\图书.png" />
+    <None Include="pic\更新.png" />
+    <None Include="pic\垃圾箱.png" />
+    <None Include="pic\添加.png" />
+    <None Include="pic\方框.png" />
+    <Content Include="pic\类别 %281%29.png" />
+    <Content Include="pic\类别.png" />
+    <None Include="pic\老师.png" />
+    <None Include="pic\课程.png" />
+    <None Include="pic\骷髅.png" />
+    <None Include="pic\首页-选中.png" />
+    <None Include="pic\背景.png" />
+    <None Include="pic\背景 %282%29.png" />
+    <None Include="pic\背景3.png" />
+    <None Include="pic\背景a..png" />
+    <None Include="pic\退出.png" />
+    <Content Include="Properties\Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

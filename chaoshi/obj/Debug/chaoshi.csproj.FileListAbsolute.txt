@@ -1,0 +1,12 @@
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\bin\Debug\chaoshi.exe.config
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\bin\Debug\chaoshi.exe
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\bin\Debug\chaoshi.pdb
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.denglu.resources
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.Properties.Resources.resources
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.csproj.GenerateResource.cache
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.csproj.CoreCompileInputs.cache
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.exe
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.pdb
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.bookchuangti.resources
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.csprojAssemblyReference.cache
+C:\Users\14363\Desktop\Student\chaoshi\chaoshi\obj\Debug\chaoshi.XiugaiPwd.resources
